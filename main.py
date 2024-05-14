@@ -6,7 +6,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 app = FastAPI()
-with open('models/target_action_model_best_params.pkl', 'rb') as file:
+with open('models/target_action_model.pkl', 'rb') as file:
     model = dill.load(file)
 
 
