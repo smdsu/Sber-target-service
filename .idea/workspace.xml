@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69ef8522-4d92-4b05-b6d4-3b62bbe2d3e9" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/target_action_model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/target_action_model.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
       <workItem from="1715342365525" duration="2282000" />
       <workItem from="1715414957072" duration="1310000" />
       <workItem from="1715416663156" duration="290000" />
-      <workItem from="1715674844762" duration="3617000" />
+      <workItem from="1715674844762" duration="5293000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

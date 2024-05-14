@@ -1,4 +1,5 @@
 import dill
+import zipfile
 
 import pandas as pd
 
@@ -6,8 +7,14 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 app = FastAPI()
-with open('models/target_action_model.pkl', 'rb') as file:
-    model = dill.load(file)
+try:
+    with open('models/target_action_model.pkl', 'rb') as file:
+        model = dill.load(file)
+except FileNotFoundError:
+    with zipfile.ZipFile('models/target_action_model.zip', 'r') as zip_ref:
+        zip_ref.extractall(path='models/')
+    with open('models/target_action_model.pkl', 'rb') as file:
+        model = dill.load(file)
 
 
 class Form(BaseModel):
